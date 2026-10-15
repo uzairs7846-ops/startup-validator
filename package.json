@@ -1,0 +1,14 @@
+{
+  "name": "mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini workspace runner for startup-validator",
+  "scripts": {
+    "dev": "npm --prefix startup-validator run dev",
+    "start": "npm --prefix startup-validator start",
+    "build": "npm --prefix startup-validator run build",
+    "server": "npm --prefix startup-validator/server run dev",
+    "client": "npm --prefix startup-validator/client run dev",
+    "install:all": "npm --prefix startup-validator run install:all"
+  }
+}
